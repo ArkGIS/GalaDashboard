@@ -129,7 +129,9 @@
         function addListItem(address, approved, balance) {
             let template = "<tr>";
             template += "<td class=\"bold text-primary\">";
+            template += "<a href=\"https://etherscan.io/address/" + address + "\" class=\"text-regular\">";
             template += address;
+            template += "</a>";
             template += "</td>";
             template += "<td>";
             template += "<a href=\"#\" class=\"text-regular\">";
